@@ -10,6 +10,11 @@ program.version('1.0.0')
        .option('-c --column [column]','error message colomn number')
        .parse(process.argv)
 
+if(!program.file || !program.column || !program.line){
+    console.log('please input map file name or error line error column')
+    process.exit(1)
+}
+
 fs.stat(program.file,(err, stats)=>{
     if(err){
         console.error('source map file is not exist, please retry it')
