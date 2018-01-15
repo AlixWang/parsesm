@@ -11,7 +11,7 @@ program.version('1.0.0')
        .parse(process.argv)
 
 if(!program.file || !program.column || !program.line){
-    console.log('please input map file name or error line error column')
+    console.error('please input map file name or error line error column')
     process.exit(1)
 }
 
