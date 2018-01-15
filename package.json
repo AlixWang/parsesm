@@ -1,6 +1,6 @@
 {
   "name": "mapparse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "parse javascript source-map file and console origin file information",
   "main": "index.js",
   "scripts": {
