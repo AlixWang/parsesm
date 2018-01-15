@@ -8,7 +8,7 @@
   },
   "bin":{
     "mapparse":"./index.js"
-  }
+  },
   "repository":{
     "type": "git",
     "url":"https://github.com/AlixWang/parsesm.git"
